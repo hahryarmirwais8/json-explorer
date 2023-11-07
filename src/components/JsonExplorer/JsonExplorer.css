@@ -1,0 +1,90 @@
+.json-explorer {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  position: relative;
+  background-color: #f9f9f9; /* Container background color */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+
+.json-ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.json-key {
+  color: blue;
+  cursor: pointer;
+}
+
+.json-value {
+  margin-left: 10px;
+}
+
+.json-string {
+  color: green;
+}
+
+.json-number {
+  color: orange;
+}
+
+.json-boolean {
+  color: purple;
+}
+
+.json-null {
+  color: gray;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  z-index: 1;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+
+.popup-close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #888;
+}
+
+.popup-content {
+  padding: 20px;
+}
+
+.popup-key {
+  font-weight: bold;
+  color: blue;
+}
+
+.popup-value {
+  margin-top: 10px;
+}
+
+.popup-string {
+  color: green;
+}
+
+.popup-number {
+  color: orange;
+}
+
+.popup-boolean {
+  color: purple;
+}
+
+.popup-null {
+  color: gray;
+}
